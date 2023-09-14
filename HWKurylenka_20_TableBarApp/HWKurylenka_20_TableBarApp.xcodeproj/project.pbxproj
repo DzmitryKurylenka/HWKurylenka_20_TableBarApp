@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		040C23292AB25AA200295901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C23282AB25AA200295901 /* AppDelegate.swift */; };
 		040C232B2AB25AA200295901 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C232A2AB25AA200295901 /* SceneDelegate.swift */; };
-		040C232D2AB25AA200295901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C232C2AB25AA200295901 /* ViewController.swift */; };
 		040C23302AB25AA200295901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040C232E2AB25AA200295901 /* Main.storyboard */; };
 		040C23322AB25AA300295901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040C23312AB25AA300295901 /* Assets.xcassets */; };
 		040C23352AB25AA300295901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040C23332AB25AA300295901 /* LaunchScreen.storyboard */; };
+		040C23402AB2704300295901 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C233F2AB2704300295901 /* Person.swift */; };
+		040C23442AB28AB300295901 /* ContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C23432AB28AB300295901 /* ContactsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		040C23252AB25AA200295901 /* HWKurylenka_20_TableBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWKurylenka_20_TableBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		040C23282AB25AA200295901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		040C232A2AB25AA200295901 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		040C232C2AB25AA200295901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		040C232F2AB25AA200295901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		040C23312AB25AA300295901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040C23342AB25AA300295901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040C23362AB25AA300295901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040C233F2AB2704300295901 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		040C23432AB28AB300295901 /* ContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		040C23272AB25AA200295901 /* HWKurylenka_20_TableBarApp */ = {
 			isa = PBXGroup;
 			children = (
-				040C23282AB25AA200295901 /* AppDelegate.swift */,
-				040C232A2AB25AA200295901 /* SceneDelegate.swift */,
-				040C232C2AB25AA200295901 /* ViewController.swift */,
+				040C233E2AB26F0B00295901 /* Models */,
+				040C23432AB28AB300295901 /* ContactsVC.swift */,
 				040C232E2AB25AA200295901 /* Main.storyboard */,
 				040C23312AB25AA300295901 /* Assets.xcassets */,
 				040C23332AB25AA300295901 /* LaunchScreen.storyboard */,
 				040C23362AB25AA300295901 /* Info.plist */,
+				040C232A2AB25AA200295901 /* SceneDelegate.swift */,
+				040C23282AB25AA200295901 /* AppDelegate.swift */,
 			);
 			path = HWKurylenka_20_TableBarApp;
+			sourceTree = "<group>";
+		};
+		040C233E2AB26F0B00295901 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				040C233F2AB2704300295901 /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040C232D2AB25AA200295901 /* ViewController.swift in Sources */,
+				040C23402AB2704300295901 /* Person.swift in Sources */,
 				040C23292AB25AA200295901 /* AppDelegate.swift in Sources */,
 				040C232B2AB25AA200295901 /* SceneDelegate.swift in Sources */,
+				040C23442AB28AB300295901 /* ContactsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
